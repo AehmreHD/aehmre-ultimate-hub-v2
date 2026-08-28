@@ -20,18 +20,25 @@
     <meta name="author" content="Aehmre">
 
     <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
-<body>
+    <body>
 
-    <nav class="topbar">
+        <nav class="topbar">
         <h2>Aehmre Ultimate Hub</h2>
 
-        <div class="topbar-links">
+        <button class="menu-button" id="menuButton" aria-label="Open menu">
+            ☰
+        </button>
+
+        <div class="topbar-links" id="topbarLinks">
             <a href="#features">Features</a>
             <a href="#interface">Interface</a>
             <a href="#compatibility">Compatibility</a>
             <a href="#changelog">Changelog</a>
+            <a href="#terms">Terms</a>
+            <a href="#contact">Contact</a>
         </div>
     </nav>
 
@@ -157,10 +164,87 @@
             </div>
         </section>
 
+        <section id="terms" class="terms">
+            <h2>Terms of Use</h2>
+
+            <div class="terms-card">
+                <h3>1. Use at Your Own Risk</h3>
+                <p>
+                    Aehmre Ultimate Hub is provided as-is for scripting,
+                    testing and educational purposes.
+                </p>
+
+                <h3>2. Platform Rules</h3>
+                <p>
+                    Users are responsible for following the rules and terms
+                    of any platform or experience in which the script is used.
+                </p>
+
+                <h3>3. No Guarantee</h3>
+                <p>
+                    Compatibility, availability and functionality are not guaranteed.
+                    Roblox updates or game updates may cause features to stop working.
+                </p>
+
+                <h3>4. Account Responsibility</h3>
+                <p>
+                    The developer is not responsible for warnings, restrictions,
+                    suspensions, bans, data loss or other consequences caused by use
+                    of the script.
+                </p>
+
+                <h3>5. Updates</h3>
+                <p>
+                    Features may be changed, removed, replaced or discontinued
+                    at any time.
+                </p>
+
+                <h3>6. Redistribution</h3>
+                <p>
+                    Do not sell, impersonate, or redistribute modified versions
+                    of Aehmre Ultimate Hub as an official release without permission.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+
+            <p class="contact-description">
+                Found a bug, have a suggestion or need help?
+            </p>
+
+            <div class="contact-list">
+                <a
+                    class="contact-card"
+                    href="https://discord.gg/YOUR_INVITE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <h3>Discord</h3>
+                    <p>Updates, support and community.</p>
+                </a>
+
+                <a
+                    class="contact-card"
+                    href="https://github.com/AehmreHD"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <h3>GitHub</h3>
+                    <p>Projects, development and source repositories.</p>
+                </a>
+            </div>
+        </section>
     </main>
 
     <footer>
         <p>© 2026 Aehmre Ultimate Hub</p>
+
+        <div class="footer-links">
+            <a href="#terms">Terms of Use</a>
+            <a href="#contact">Contact</a>
+        </div>
 
         <p>
             This script is provided for educational and testing purposes only.
